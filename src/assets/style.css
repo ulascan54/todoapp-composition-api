@@ -2,7 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-
+@layer components{
     body{
-        @apply  bg-black
+        @apply  bg-gray-300 flex justify-center w-screen p-40
     }
+
+}
